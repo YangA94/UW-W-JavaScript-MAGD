@@ -1,0 +1,171 @@
+//Set up of program
+function setup() 
+
+{
+  
+  //Created Cavas size 
+  createCanvas(800, 600);
+
+}
+
+function draw() 
+
+{
+  
+  //Set background
+  background(255);
+  
+  //Castle Bottom
+  fill(200)
+  rect(400, 569, 50, 30); // rect(x, y, width, height)
+  rect(345, 569, 50, 30); // rect(x, y, width, height)
+  rect(455, 569, 50, 30); // rect(x, y, width, height)
+  rect(510, 569, 50, 30); // rect(x, y, width, height)
+  rect(290, 569, 50, 30); // rect(x, y, width, height)
+  rect(235, 569, 50, 30); // rect(x, y, width, height)
+  rect(565, 569, 50, 30); // rect(x, y, width, height)
+  rect(180, 569, 50, 30); // rect(x, y, width, height)
+  rect(620, 569, 50, 30); // rect(x, y, width, height)
+  
+  //Castle 2nd Cobble Layer
+  rect(372.5, 535, 50, 30); // rect(x, y, width, height)
+  rect(427.5, 535, 50, 30); // rect(x, y, width, height)
+  rect(482.5, 535, 50, 30); // rect(x, y, width, height)
+  rect(317.5, 535, 50, 30); // rect(x, y, width, height)
+  rect(262.5, 535, 50, 30); // rect(x, y, width, height)
+  rect(537.5, 535, 50, 30); // rect(x, y, width, height)
+  rect(207.5, 535, 50, 30); // rect(x, y, width, height)
+  rect(592.5, 535, 50, 30); // rect(x, y, width, height)
+  rect(647.5, 535, 23, 30); // rect(x, y, width, height)
+  rect(180.0, 535, 23, 30); // rect(x, y, width, height)
+  
+  //Castle 3rd Cobble Layer
+  fill(55)
+  rect(400, 501, 50, 30); // rect(x, y, width, height)
+  fill(200)
+  rect(345, 501, 50, 30); // rect(x, y, width, height)
+  rect(455, 501, 50, 30); // rect(x, y, width, height)
+  rect(510, 501, 50, 30); // rect(x, y, width, height)
+  rect(290, 501, 50, 30); // rect(x, y, width, height)
+  rect(235, 501, 50, 30); // rect(x, y, width, height)
+  rect(565, 501, 50, 30); // rect(x, y, width, height)
+  rect(180, 501, 50, 30); // rect(x, y, width, height)
+  rect(620, 501, 50, 30); // rect(x, y, width, height)
+  
+  //Castle 4th Cobble Layer
+  fill(55)
+  rect(372.5, 467, 50, 30); // rect(x, y, width, height)
+  rect(427.5, 467, 50, 30); // rect(x, y, width, height)
+  fill(200)
+  rect(482.5, 467, 50, 30); // rect(x, y, width, height)
+  rect(317.5, 467, 50, 30); // rect(x, y, width, height)
+  rect(262.5, 467, 50, 30); // rect(x, y, width, height)
+  rect(537.5, 467, 50, 30); // rect(x, y, width, height)
+  rect(207.5, 467, 50, 30); // rect(x, y, width, height)
+  rect(592.5, 467, 50, 30); // rect(x, y, width, height)
+  rect(647.5, 467, 23, 30); // rect(x, y, width, height)
+  rect(180.0, 467, 23, 30); // rect(x, y, width, height)
+  
+  //Castle 5th Cobble Layer
+  fill(55)
+  rect(400, 433, 50, 30); // rect(x, y, width, height)
+  fill(200)
+  rect(345, 433, 50, 30); // rect(x, y, width, height)
+  rect(455, 433, 50, 30); // rect(x, y, width, height)
+  rect(510, 433, 50, 30); // rect(x, y, width, height)
+  rect(290, 433, 50, 30); // rect(x, y, width, height)
+  rect(235, 433, 50, 30); // rect(x, y, width, height)
+  rect(565, 433, 50, 30); // rect(x, y, width, height)
+  rect(180, 433, 50, 30); // rect(x, y, width, height)
+  rect(620, 433, 50, 30); // rect(x, y, width, height)
+  
+  //Castle 6th Cobble Layer
+  fill(55)
+  rect(372.5, 399, 50, 30); // rect(x, y, width, height)
+  rect(427.5, 399, 50, 30); // rect(x, y, width, height)
+  fill(200)
+  rect(482.5, 399, 50, 30); // rect(x, y, width, height)
+  rect(317.5, 399, 50, 30); // rect(x, y, width, height)
+  rect(262.5, 399, 50, 30); // rect(x, y, width, height)
+  rect(537.5, 399, 50, 30); // rect(x, y, width, height)
+  rect(207.5, 399, 50, 30); // rect(x, y, width, height)
+  rect(592.5, 399, 50, 30); // rect(x, y, width, height)
+  rect(647.5, 399, 23, 30); // rect(x, y, width, height)
+  rect(180.0, 399, 23, 30); // rect(x, y, width, height)
+  
+  //Castle 7th Cobble Layer
+  fill(55)
+  rect(400, 365, 50, 30); // rect(x, y, width, height)
+  fill(200)
+  rect(345, 365, 50, 30); // rect(x, y, width, height)
+  rect(455, 365, 50, 30); // rect(x, y, width, height)
+  rect(510, 365, 50, 30); // rect(x, y, width, height)
+  rect(290, 365, 50, 30); // rect(x, y, width, height)
+  rect(235, 365, 50, 30); // rect(x, y, width, height)
+  rect(565, 365, 50, 30); // rect(x, y, width, height)
+  rect(180, 365, 50, 30); // rect(x, y, width, height)
+  rect(620, 365, 50, 30); // rect(x, y, width, height)
+  
+  //Castle 9th Cobble Layer
+  rect(372.5, 331, 50, 30); // rect(x, y, width, height)
+  rect(427.5, 331, 50, 30); // rect(x, y, width, height)
+  rect(482.5, 331, 50, 30); // rect(x, y, width, height)
+  rect(317.5, 331, 50, 30); // rect(x, y, width, height)
+  rect(262.5, 331, 50, 30); // rect(x, y, width, height)
+  rect(537.5, 331, 50, 30); // rect(x, y, width, height)
+  rect(207.5, 331, 50, 30); // rect(x, y, width, height)
+  rect(592.5, 331, 50, 30); // rect(x, y, width, height)
+  rect(647.5, 331, 23, 30); // rect(x, y, width, height)
+  rect(180.0, 331, 23, 30); // rect(x, y, width, height)
+  
+  //Castle 10th Cobble Layer
+  rect(400, 297, 50, 30); // rect(x, y, width, height)
+  rect(345, 297, 50, 30); // rect(x, y, width, height)
+  rect(455, 297, 50, 30); // rect(x, y, width, height)
+  rect(510, 297, 50, 30); // rect(x, y, width, height)
+  rect(290, 297, 50, 30); // rect(x, y, width, height)
+  rect(235, 297, 50, 30); // rect(x, y, width, height)
+  rect(565, 297, 50, 30); // rect(x, y, width, height)
+  rect(180, 297, 50, 30); // rect(x, y, width, height)
+  rect(620, 297, 50, 30); // rect(x, y, width, height)
+  
+  //Castle 11th Cobble Layer
+  rect(372.5, 263, 50, 30); // rect(x, y, width, height)
+  rect(427.5, 263, 50, 30); // rect(x, y, width, height)
+  rect(482.5, 263, 50, 30); // rect(x, y, width, height)
+  rect(317.5, 263, 50, 30); // rect(x, y, width, height)
+  rect(262.5, 263, 50, 30); // rect(x, y, width, height)
+  rect(537.5, 263, 50, 30); // rect(x, y, width, height)
+  rect(207.5, 263, 50, 30); // rect(x, y, width, height)
+  rect(592.5, 263, 50, 30); // rect(x, y, width, height)
+  
+  //End Bricks Smooth Up
+  rect(647.5, 263, 50, 30, 0, 0, 15, 0); // rect(x, y, width, height, tl, tr, br, bl)
+  rect(152.5, 263, 50, 30, 0, 0, 0, 15); // rect(x, y, width, height, tl, tr, br, bl)
+  
+  //Start of Upper Nest
+  rect(400, 229, 50, 30); // rect(x, y, width, height)
+  rect(345, 229, 50, 30); // rect(x, y, width, height)
+  rect(455, 229, 50, 30); // rect(x, y, width, height)
+  rect(510, 229, 50, 30); // rect(x, y, width, height)
+  rect(290, 229, 50, 30); // rect(x, y, width, height)
+  rect(235, 229, 50, 30); // rect(x, y, width, height)
+  rect(565, 229, 50, 30); // rect(x, y, width, height)
+  rect(180, 229, 50, 30); // rect(x, y, width, height)
+  rect(620, 229, 50, 30); // rect(x, y, width, height)
+  rect(152.5, 229, 23, 30); // rect(x, y, width, height)
+  rect(674.5, 229, 23, 30); // rect(x, y, width, height)
+  
+  //Upper Nest Row 2
+  rect(372.5, 195, 50, 30); // rect(x, y, width, height)
+  rect(427.5, 195, 50, 30); // rect(x, y, width, height)
+  rect(482.5, 195, 50, 30); // rect(x, y, width, height)
+  rect(317.5, 195, 50, 30); // rect(x, y, width, height)
+  rect(262.5, 195, 50, 30); // rect(x, y, width, height)
+  rect(537.5, 195, 50, 30); // rect(x, y, width, height)
+  rect(207.5, 195, 50, 30); // rect(x, y, width, height)
+  rect(592.5, 195, 50, 30); // rect(x, y, width, height)
+  rect(647.5, 195, 50, 30); // rect(x, y, width, height)
+  rect(152.5, 195, 50, 30); // rect(x, y, width, height)
+  
+}

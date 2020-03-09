@@ -1,0 +1,22 @@
+function setup()
+{
+  createCanvas(400, 400);
+  background(220);
+  
+}
+
+function draw() 
+
+{
+  
+  Death Star
+  arc (350, 50, 40, 40, 0, PI + PI, CHORD);  arc (x, y, w, h, start, stop, mode)
+  
+    Ray Gun
+    
+  
+  Planet
+  arc (150, 250, 200, 200, 0, PI + PI, CHORD);  arc (x, y, w, h, start, stop, mode) 
+  
+  
+}
